@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+
+
 class FrozenFoodComponent extends Component {
 	render() {
 		console.log(this.props.frozenData);
